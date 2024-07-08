@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+/* o asteristico significa estar selcionando toda a pagina css */
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; /*tira */
+   text-decoration: none; /* tira qualquer decoração que estiver no texto*/
+}
+
+body {
+
+   font-size: 100%;
+   background-color:#13131f;
+}
+
+/*aqui estou interagindo com o menu de titulos do meu site*/
+.cabecalho {
+   /*estou utilizando o site https://css-tricks.com/snippets/css/a-guide-to-flexbox/  para me guiar sobre posições*/
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 35px;
+   height: 72px;
+   
+
+}
+
+.cabecalho-menu{
+
+   display: flex;
+   gap: 32px;
+   font-family: "Poppins", sans-serif;;
+   color: #FFF2E7;
+   font-weight: 400;
+   font-size: 18px;
+   
+}
+
+.conteudo{
+
+   margin-bottom: 48px;
+   border-top: 0.6px solid #582a8d; /* linha reta entre menu e o conteudo do site*/
+}
+
+.conteudo-principal{
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   
+  
+
+}
+
+.conteudo-principal-imagem{
+
+    /*padding: 10px 20px 30px 40px; eu poderia utilizar dessa maneira, 
+    Quatro valores: Os valores definem o padding para o topo, direita, baixo e esquerda, respectivamente.*/
+
+    justify-content: space-around;
+   width: 500px;
+   height: auto;
+   border-radius: 50px;
+   padding: 30px;
+   opacity: 0.8;
+      
+}
+
+.conteudo-principal-escrito-titulo{
+
+   font-family: "Poppins", sans-serif;;
+   font-weight: 400;
+   font-size: 48px;
+   color: rgba(255, 242, 231, 1);
+   border-radius: 20px;
+   margin-top: 15px;
+   
+}
+
+.conteudo-principal-escrito-subtitulo-full{
+
+   font-family: "DM Sans", sans-serif;;
+   font-weight: 28;
+   font-size: 20px;
+   color: #828282;
+   border-radius: 20px;
+   margin-top: 20px;
+   
+
+}
+
+.conteudo-principal-escrito-subtitulo{
+
+   font-family: "Poppins", sans-serif;;  
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 50px;
+   color: #8257e6;
+  
+
+}
+
+.conteudo-principal-escrito-bota:hover {
+
+   background-color: rgba(236, 214, 196, 0.53);
+
+}
+
+.conteudo-principal-escrito-botao{
+
+   background-color: #8257e6;
+   width: 185px;
+   height: 40px;
+   border: none;
+   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   font-family: "DM Sans", sans-serif;;  
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 3px;
+   color: honeydew;
+   margin-top: 48px;
+   border: none;
+   cursor: pointer;
+   transition: background-color 2s ease;
+            
+            
+   
+}
+
+.conteudo-secundario{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px; 
+   margin-top: 48px; /*espaço entre as linhas*/
+   position: center;
+   border-top: 0.6px solid #582a8d; /* linha reta entre menu e o conteudo do site*/
+   
+
+}
+
+.conteudo-secundario-titulo{
+
+   margin-bottom: 48px;
+   font-family: "DM Sans", sans-serif;;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 32px;
+   text-align: center;
+   color: rgba(255, 242, 231, 1);
+   margin-bottom: 6px;
+   
+
+   
+}
+
+.conteudo-secundario-texto{
+
+   font-family: "DM Sans", sans-serif;;
+   font-weight: 30;
+   font-size: 20px;
+   color: #828282;
+   border-radius: 30px;
+   margin-top: 30px;
+   margin-bottom: 48px;
+   font-style: normal;
+   
+   
+}
+
+.habilidades-titulo{
+
+   margin-bottom: 48px;
+   font-family: "DM Sans", sans-serif;;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 32px;
+   text-align: center;
+   margin-bottom: 5px;
+   color: rgba(255, 242, 231, 1);
+   margin-bottom: 30px;
+   margin-top: px;
+
+}
+
+.rodape{
+
+   padding: 32px;
+   border-top: 0.4px solid #FFF2E7
+}
+
+.rodape-imagem{
+
+   height: 48px;
+   display: block; /*deixa o elemento centralizado*/
+   margin: 0 auto;
+}
+
+.habilidades{
+
+   margin-bottom: 48px;
+   font-family: "DM Sans", sans-serif;;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 32px;
+   text-align: center;
+   color: rgba(255, 242, 231, 1);
+   margin-bottom: 6px;
+
+}
+
+.icons{
+   text-align: center;
+   
+   
+}
+
+.Skills{
+
+   margin-bottom: 48px;
+   font-family: "DM Sans", sans-serif;;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 32px;
+   text-align: center;
+   color: rgba(255, 242, 231, 1);
+   margin-bottom: 6px;
+   
+}
+
+.githubstates{
+
+   padding: 10px 20px 30px 40px;
+}
+
+.Skills{
+
+   padding: 30px 20px 30px 40px;
+}
